@@ -1,0 +1,33 @@
+:host{
+  box-sizing: border-box;
+  width: 100%;
+  display:inline-block;
+  margin: 10px;
+	cursor: pointer;
+	padding: 20px 30px;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	background: #cb4e4e;
+	color: #fff;
+	box-shadow: 0 6px #ab3c3c;
+	border-radius: 0 0 5px 5px;
+}
+
+:host:hover {
+	box-shadow: 0 4px #ab3c3c;
+}
+
+:host:active {
+	box-shadow: 0 0 #ab3c3c;
+}
+
+:host:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}

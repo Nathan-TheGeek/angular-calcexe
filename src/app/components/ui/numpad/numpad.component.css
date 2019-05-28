@@ -1,0 +1,9 @@
+table {
+  width: 100%;
+}
+tr.class-row{
+  width: 100%;
+}
+tr.class-row td{
+  width: 25%;
+}
